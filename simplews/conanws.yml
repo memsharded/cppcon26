@@ -1,0 +1,5 @@
+packages:
+- path: engine
+  ref: engine/1.0
+- path: game
+  ref: game/1.0
