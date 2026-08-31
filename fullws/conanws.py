@@ -21,9 +21,6 @@ class Ws(Workspace):
                                "ref": f"{conanfile.name}/{conanfile.version}"})
         return result
     
-
-
-
     def build_order(self, order):
         super().build_order(order)  # default behavior prints the build order
         pkglist = " ".join([f'{it["ref"].name}:{it["folder"]}' for level in order for it in level])
