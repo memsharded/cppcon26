@@ -32,4 +32,8 @@ os.chdir("simplews")
 
 run("conan workspace open")
 run("conan workspace build")
-run("build/Release/game.exe")
+run("game/build/Release/game.exe")
+# modify engine, see that it works
+
+
+# FullWS
