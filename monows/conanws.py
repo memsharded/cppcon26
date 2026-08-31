@@ -1,9 +1,5 @@
-import os
-import json
-from conan import Workspace
-from conan import ConanFile
-from conan.tools.files import save
-from conan.tools.cmake import CMakeDeps, CMakeToolchain, cmake_layout, CMake
+from conan import Workspace, ConanFile
+from conan.tools.cmake import cmake_layout, CMake
 
 
 class Ws(Workspace):

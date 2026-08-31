@@ -36,4 +36,13 @@ run("game/build/Release/game.exe")
 # modify engine, see that it works
 
 
+# SimpleWS
+
+os.chdir("../monows")
+
+run("conan workspace open")
+run("conan workspace super-install")
+run("cmake --build --preset conan-release")
+# modify engine, see that it works
+
 # FullWS
