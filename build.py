@@ -22,6 +22,8 @@ for pkg in ("mathlib", "ai", "graphics", "engine", "game", "mapviewer"):
 
 run("conan list")
 
+exit()
+
 os.chdir("..")
 
 
